@@ -1,0 +1,59 @@
+﻿<?xml version="1.0"?>
+<package>
+  <metadata>
+    <!--*-->
+    <id>ExtensibleListingBlock</id>
+    <!--*-->
+    <version>1.0.0.0</version>
+    <!--<title></title>-->
+    <!--*-->
+    <authors>Cong Nguyen</authors>
+    <owners>Cong Nguyen</owners>
+
+    <!--<licenseUrl></licenseUrl>-->
+    <projectUrl>https://github.com/congnguyenthanh/EpiserverExtensions</projectUrl>
+    <!--<iconUrl></iconUrl>-->
+
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <!--*-->
+    <description>Define a base infrastructure that can be extensible for listing and searching</description>
+    <!--*-->
+    <!--<copyright>$copyright$</copyright>-->
+    <dependencies>
+         <group targetFramework="net46">
+            <dependency id="Microsoft.AspNet.WebApi.Client" version="5.0.0" />
+            <dependency id="Microsoft.AspNet.WebApi.Core" version="5.0.0" />
+            <dependency id="Microsoft.AspNet.WebApi.WebHost" version="5.0.0" />
+            <dependency id="Microsoft.Net.Http" version="2.0.20710.0" />
+            <dependency id="Microsoft.Tpl.Dataflow" version="4.5.24" />
+            <dependency id="Microsoft.Web.Infrastructure" version="1.0.0.0" />
+            <dependency id="structuremap.web-signed" version="3.1.6.186" />
+            <dependency id="structuremap-signed" version="3.1.9.463" />
+         </group>
+         <group targetFramework="net461">
+            <dependency id="Castle.Core" version="4.2.1" />
+            <dependency id="Castle.Windsor" version="4.1.0" />
+            <dependency id="EPiServer.CMS.AspNet" version="11.4.0" />
+            <dependency id="EPiServer.CMS.Core" version="11.4.0" />
+            <dependency id="EPiServer.CMS.UI.Core" version="11.4.0" />
+            <dependency id="EPiServer.Find" version="12.7.1" />
+            <dependency id="EPiServer.Find.Cms" version="12.7.1" />
+            <dependency id="EPiServer.Find.Framework" version="12.7.1" />
+            <dependency id="EPiServer.Framework" version="11.4.0" />
+            <dependency id="EPiServer.Framework.AspNet" version="11.4.0" />
+            <dependency id="Microsoft.AspNet.Mvc" version="5.2.3" />
+            <dependency id="Microsoft.AspNet.Razor" version="3.2.3" />
+            <dependency id="Microsoft.AspNet.WebPages" version="3.2.3" />
+            <dependency id="Newtonsoft.Json" version="10.0.3" />
+            <dependency id="System.ComponentModel.Annotations" version="4.4.0" />
+            <dependency id="System.Data.SqlClient" version="4.4.0" />
+            <dependency id="System.Reflection.Emit" version="4.3.0" />
+            <dependency id="System.Security.AccessControl" version="4.4.0" />
+            <dependency id="System.Security.Cryptography.Xml" version="4.4.0" />
+            <dependency id="System.Security.Permissions" version="4.4.0" />
+            <dependency id="System.Security.Principal.Windows" version="4.4.0" />
+            <dependency id="System.Threading.AccessControl" version="4.4.0" />
+         </group>
+      </dependencies>
+  </metadata>
+</package>
