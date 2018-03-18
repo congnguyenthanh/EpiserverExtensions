@@ -1,0 +1,13 @@
+﻿@using EpiserverExtensions.Services
+@using EpiserverExtensions.ContentTypes
+
+@model SearchResultViewModel<EPiServer.Core.IContent>
+
+@foreach (var item in Model.Result.OfType<ISearchableContent>())
+{
+    <div class="row">
+        <a href="@Url.ContentUrl(item.ContentLink)">
+            <h1>@item.Keywords</h1>
+        </a>
+    </div>
+}

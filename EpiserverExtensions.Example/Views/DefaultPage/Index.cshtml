@@ -1,0 +1,12 @@
+﻿
+@model EpiserverExtensions.Example.Models.Pages.StandardPage
+
+@{
+    ViewBag.Title = Model.Title;
+}
+
+<h2>@Html.PropertyFor(m => m.Title)</h2>
+<div class="container">
+    @Html.PropertyFor(m => m.MainBody)
+    @Html.PropertyFor(m => m.Content)
+</div>

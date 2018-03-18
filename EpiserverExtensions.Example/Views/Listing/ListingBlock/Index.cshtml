@@ -1,0 +1,25 @@
+﻿@using EPiServer.Core
+
+@model EpiserverExtensions.ContentTypes.Listing.ListingBlock
+
+@Html.PropertyFor(m => m.Title)
+<div class="container">
+    <div class="row">
+        <form class="form-inline" id="searchForm">
+            @Html.Hidden("contentId", ((IContent)Model).ContentLink.ID)
+            <div class="form-group mx-sm-3 mb-2">
+                <label for="keywordSearch" class="sr-only">Keyword search</label>
+                <input type="text" class="form-control" id="keywordSearch" placeholder="Enter keyword...">
+            </div>
+            <button type="submit" class="btn btn-primary mb-2">Search</button>
+        </form>
+    </div>
+    <div class="row">
+        <div class="container data-result">
+
+        </div>
+    </div>
+    <div class="row hidden">
+        <input class="btn btn-primary read-more" value="Load more"/>
+    </div>
+</div>

@@ -1,0 +1,15 @@
+﻿@using EpiserverExtensions.Services
+@using EpiserverExtensions.Example.Models.Pages
+
+@model SearchResultViewModel<EPiServer.Core.IContent>
+
+@foreach (var item in Model.Result.OfType<ArticlePage>())
+{
+    var header = !string.IsNullOrWhiteSpace(item.Title) ? item.Title : item.PageName;
+
+    <div class="row">
+        <a href="@Url.ContentUrl(item.ContentLink)">
+            <h1>@header</h1>
+        </a>
+    </div>
+}

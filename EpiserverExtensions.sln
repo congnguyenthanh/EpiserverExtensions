@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2005
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpiserverExtensions", "EpiserverExtensions\EpiserverExtensions.csproj", "{F12D84A0-C1C5-4F60-92AA-E911ED0C6A8F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EpiserverExtensions.Example", "EpiserverExtensions.Example\EpiserverExtensions.Example.csproj", "{43838B5B-F23B-4822-91CB-0CE9C13D462B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F12D84A0-C1C5-4F60-92AA-E911ED0C6A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F12D84A0-C1C5-4F60-92AA-E911ED0C6A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F12D84A0-C1C5-4F60-92AA-E911ED0C6A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F12D84A0-C1C5-4F60-92AA-E911ED0C6A8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43838B5B-F23B-4822-91CB-0CE9C13D462B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43838B5B-F23B-4822-91CB-0CE9C13D462B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43838B5B-F23B-4822-91CB-0CE9C13D462B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43838B5B-F23B-4822-91CB-0CE9C13D462B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {395227BC-8BFF-48EE-A675-375CABEF1515}
+	EndGlobalSection
+EndGlobal
